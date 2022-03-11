@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    height: 150px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+a{
+    color: black;
+}
+li {
+    display: inline;
+    list-style: none;
+}
+#w3c-logo .logo {
+    float: left;
+}
+#w3c-logo #view{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px  
+}
+#w3c-logo #view ul {
+    border: 1px solid #dacaca;
+    height: 40px;
+    width: 250px;   
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+#w3c-logo #view ul li{
+    padding: 0 7px;
+}
+#w3c-logo #view ul li a{
+    color: #968585
+}
+#w3c-logo #view ul li a:hover{ 
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+#w3c-logo #select{
+    float: right;
+    padding-right: 200px;
+}   
+#w3c-logo #select select{
+    float: left;
+    width: 250px;
+    height: 25px;
+}
+#w3c-logo #select button{
+    background-color: rgb(82, 79, 79);
+    border-radius: 5px  ;
+    color: white;
+    float: right;
+    width: 40px;
+    margin: 0 5px;
+    height: 30px;
+}
+/* Menu */
+header #nav{
+    padding-top: 85px;
+}
+header #nav ul{
+    padding: 5px 32px;
+    height: 50px;
+    float:left
+}
+header #nav ul li{
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+}
+header #nav ul li a{    
+    display: inline-block;
+    font-size: 20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: rgb(88, 177, 204);
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 0px;
+    padding-right: 10px;
+}
+header #nav ul li:nth-child(1) a{
+    border-right: 1px solid rgb(211, 208, 208);
+}
+header #nav ul li:nth-child(2) a{
+    border-right: 1px solid rgb(211, 208, 208);
+}
+header #nav ul li:nth-child(3) a {
+    border-right: 1px solid rgb(211, 208, 208);
+}
+ul li a:hover{
+    background-color: rgba(243, 241, 239, 0.926);
+}
+header #nav #search{
+    height: 30px;
+    background-color: white;
+    float: right;
+    margin-right: 100px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 230, 230);
+
+}
+header #nav #search input{
+    border: 0;
+    font-size: 131%;
+    width: 70%;
+    margin-top: 2px;
+    color: #333;
+    float: left;
+    text-align: start;
+    float: left;
+    border-radius: 5px;
+}
+header #nav #search button{
+    position: absolute;
+    border-style: none;
+    background: 0;
+    right: 9px;
+    top: 6px;
+}
+/* Main */
+#w3c-main-left{
+    height: 100%;
+}
+#w3c-mainleft .w3c-leftcol{
+    display: block;
+    background-color: #e0e0e0;
+    float: left;
+    clear: left;
+    color : #17445f;
+}
+#w3c-mainleft .w3c-leftcol img:nth-child(1){
+    width: 200px;
+    height: 50px;
+}
+#w3c-mainleft h3{
+    display: block;
+    width: 210px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-weight: normal;
+    padding-left: 25px;
+    background: url(https://www.w3.org/2008/site/images/category-bg.png) repeat-x bottom right;         
+
+}
+#w3c-mainleft ul{
+    width: 200px;
+    height: 160px;
+    padding-top: 15px;
+}
+#w3c-mainleft ul li{
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 80%;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+#w3c-mainleft ul li a{
+    display: inline-block;
+    color: #00337c;
+    width: 100%;
+    padding-left: 10px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    line-height: 40px;
+}
+/* main right*/
+#w3c-mainright {
+    overflow: hidden;
+    float: auto;
+    background-color: #fff;
+    padding: 40px 20px 0px 20px;
+    height: 100%;
+}
+#w3c-mainright #main-content{
+    width: 60%;
+    float: left;
+}
+#w3c-mainright #main-content .headline{
+    height: 130px;
+    background-color: #f1f7fb;
+} 
+#w3c-mainright #main-content .headline a:nth-child(1){
+    color: #1b446c;
+    display: block;
+    padding: 15px 0px 10px 20px;
+    font-size: 27px;
+    text-decoration: none;
+}
+#w3c-mainright #main-content .headline img{
+    padding-right: 2px;
+    margin-right: 10px;
+}
+.endline{
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-top: 15px;
+    display: inline;
+    width: 100%;
+} 
+.endline span{
+    font-size: 18px;
+}
+.endline a{
+    color: #3b82c9;
+}
+/* body line*/
+.bodyline{
+    font-weight: normal;
+    background-color: #e0e0e0;
+    height: 360px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.bodyline p{
+    padding-top: 20px;
+    padding-left: 25px;
+}   
+.bodyline a {
+    text-decoration: none;
+    border-bottom: 1px solid #00337c;
+    color: #00337c;
+}
+.bodyline a:nth-child(1){
+    color: #5295f5;
+}
+/* taskbar*/
+#taskbar{
+    display: block;
+    width: auto;
+    float: right;
+}
+#taskbar #head {
+    display: block;
+    height: 100%;
+    width: 400px;
+}
+
+#taskbar #head .skip {
+    background: #fff url(https://www.w3.org/2008/site/images/skip.png) no-repeat  center;
+    text-align: center;
+    width: 60px;
+    float: right;
+    position: relative;
+    left: 20px;
+    bottom: 3px;
+    margin-right: 70px;
+    margin-top: -25px;
+}
+#taskbar #head .skip a {
+    text-decoration: none;
+}
+.body-taskbar p{
+    background-color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    padding-left: 20px;
+    color: #00337c;
+}
+.body-taskbar p a{
+    text-decoration: none; 
+    color: #00337c;
+    border-bottom: 1px solid rgb(45, 55, 194); 
+}
+.body-taskbar .blog{
+    background: #fcfbfb url(https://www.w3.org/2008/site/images/category-bg-right.png) repeat-x bottom right ;
+    color: #17445f;
+    width: auto;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin: 30px 0px 40px 20px;
+    font-size: 25px;
+}
+
+
